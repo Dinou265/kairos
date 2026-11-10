@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kairos — The right hackathon, at the right time</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">Kairos</p>
+    <h1>The right hackathon,<br>at the right time.</h1>
+    <p class="sub">A curated feed of hackathons, competitions, and innovation events—before registration closes.</p>
+    <div class="actions">
+      <a class="btn primary" href="#events">Browse events</a>
+      <a class="btn ghost" href="#waitlist">Get deadline alerts</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="events" class="events">
+      <div class="section-head">
+        <h2>Live opportunities</h2>
+        <p>Hand-picked events with open registration.</p>
+      </div>
+      <div id="event-grid" class="event-grid"></div>
+    </section>
+
+    <section id="waitlist" class="waitlist">
+      <h2>Never miss a deadline</h2>
+      <p>Get a short alert when a hackathon matching your interests opens or is about to close.</p>
+      <form class="waitlist-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <input type="email" name="email" placeholder="your@email.com" required>
+        <button type="submit">Join the waitlist</button>
+      </form>
+      <p class="fine">No spam. Only deadlines worth knowing about.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Kairos — the right hackathon, at the right time.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
