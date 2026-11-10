@@ -1,15 +1,15 @@
 [
   {
-    "name": "Example Hackathon",
-    "organizer": "Example Association",
-    "dates": "TBD",
+    "name": "Real Hackathon Name",
+    "organizer": "Organizer or Association",
+    "dates": "21–23 November 2026",
     "location": "Paris, France",
     "theme": "AI, web, design",
-    "deadline": "TBD",
-    "registrationLink": "https://example.com",
-    "prize": "TBD",
+    "deadline": "18 November 2026",
+    "registrationLink": "https://real-registration-link.com",
+    "prize": "€1,000",
     "teamSize": "2–5",
-    "status": "pending",
+    "status": "live",
     "source": "Organizer",
     "lastChecked": "2026-11-10"
   }
